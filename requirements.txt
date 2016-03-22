@@ -1,0 +1,15 @@
+alembic==0.8.0
+celery==3.1.18
+factory-boy==2.5.2
+Flask==0.10.1
+Flask-Migrate==1.5.0
+Flask-RESTful==0.3.5
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.0
+Jinja2==2.8
+six==1.9.0
+SQLAlchemy==1.0.8
+SQLAlchemy-Utils==0.30.16
+Werkzeug==0.10.4
+psycopg2==2.6.1
+pytest==2.8.5
