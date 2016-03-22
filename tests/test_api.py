@@ -23,7 +23,7 @@ def test_get_should_return_paginated_documents(client, session):
     assert len(response.json) == length
 
 
-def test_get_feed_data_should_return_404_when_missing_page(client, session):
+def test_get_documents_should_return_404_when_missing_page(client, session):
     documents_count = 3
     factories.DocumentFactory.create_batch(documents_count)
 
@@ -33,7 +33,7 @@ def test_get_feed_data_should_return_404_when_missing_page(client, session):
     assert response.json == {}
 
 
-def test_get_should_return_ordered_results(client, session):
+def test_get_should_return_one_document(client, session):
     name = 'John'
     document = factories.DocumentFactory.create(data={'name': name})
 

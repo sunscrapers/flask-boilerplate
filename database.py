@@ -17,7 +17,7 @@ class Document(db.Model):
         self.data = data
 
     def __repr__(self):
-        return u'<Feed %s>'.format(self.feed_id)
+        return u'<Documents %s>'.format(self.id)
 
     def as_dict(self):
         data = {'id': self.id}

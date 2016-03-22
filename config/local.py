@@ -7,7 +7,7 @@ CELERY_BROKER_URL = 'sqla+postgresql://localhost/flask_example'
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERYBEAT_SCHEDULE = {
-    'grab-feeds': {
+    'example_task': {
         'task': 'tasks.example_task',
         'schedule': timedelta(seconds=10),
         'args': ()

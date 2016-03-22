@@ -13,7 +13,7 @@ Firstly clone the repository and create virtualenv. Then install requirements:
 
 `$ pip install -r requirements.txt`
 
-Before running the application make sure that your local PostgreSQL server is up. The create the databases:
+Before running the application make sure that your local PostgreSQL server is up. Then create the databases:
 
 ```
 CREATE DATABASE flask_example;
