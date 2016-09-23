@@ -6,5 +6,6 @@ install: pip install -r requirements.txt
 services: postgresql
 before_script:
   - psql -c 'create database flask_example_test;' -U postgres
+  - psql -c 'create database flask_example;' -U postgres
   - ./manage.py db upgrade
 script: ./manage.py test
