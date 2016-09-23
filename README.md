@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sunscrapers/flask-boilerplate.svg?branch=master)](https://travis-ci.org/sunscrapers/flask-boilerplate)
+
 # Flask Boilerplate
 
 This repository contains a sample minimal Flask application structure that includes:
