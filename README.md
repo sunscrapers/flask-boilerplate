@@ -7,9 +7,11 @@ This repository contains example minimal Flask application structure that includ
 * Celery
 * py.test
 
+It runs on both Python 2.7 and 3.5.
+
 ## Installation
 
-Firstly clone the repository and create virtualenv. Then install requirements:
+First, clone the repository and create a virtualenv. Then install the requirements:
 
 `$ pip install -r requirements.txt`
 
@@ -28,11 +30,11 @@ Finally you can run the application:
 
 `./manage.py runserver`
 
-or play in Python REPL:
+or play in the Python REPL:
 
 `./manage.py shell`
 
-In order to run unit tests in py.test you can invoke:
+In order to run unit tests in py.test invoke:
 
 `./manage.py test`
 
