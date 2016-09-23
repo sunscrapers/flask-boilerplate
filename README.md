@@ -1,6 +1,6 @@
 # Flask Boilerplate
 
-This repository contains example minimal Flask application structure that includes:
+This repository contains a sample minimal Flask application structure that includes:
 
 * SQLAlchemy
 * Alembic
@@ -22,7 +22,7 @@ CREATE DATABASE flask_example;
 CREATE DATABASE flask_example_test;
 ```
 
-Now you can create tables using Alembic:
+Now you can create the tables using Alembic:
 
 `./manage.py db upgrade`
 
